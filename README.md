@@ -3,7 +3,9 @@ Completing a coding challenge while also evaluating fly.io and Upstash Redis
 
 ## Author
 Ben Brandt
+
 https://www.linkedin.com/in/bbrandttx/
+
 https://github.com/bbrandt
 
 # The Challenge
