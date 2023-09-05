@@ -11,7 +11,7 @@ Ben Brandt
 Our standard interview process includes a programming exercise to be completed prior to the interview for all levels of positions on our team. There's no time limit on it, as it's intended to be able to fit around your other responsibilities (home and work), however we would expect this to not take any longer than 4-6 hours.
 
 ### Programming Assignment:
-Reddit, much like other social media platforms, provides a way for users to communicate their interests etc. For this exercise, we would like to see you build an application that listens to your choice of subreddits (best to choose one with a good amount of posts). You can use this [link]([url](https://urldefense.com/v3/__https:/redditcharts.com/__;!!IEG5Mis9EI4d!TU3PcOJ0KOuHqLeVy6hCHe2yFEGS2BfG81pb-R_qZAyZNVqKNm6ls90Yhf_RBu59dm_KWyj3hJQGiQT8ZFkqWTh2exeiY3D5WJ0$)) to help identify one that interests you.  We'd like to see this as a .NET 6/7 application, and you are free to use any 3rd party libraries you would like.
+Reddit, much like other social media platforms, provides a way for users to communicate their interests etc. For this exercise, we would like to see you build an application that listens to your choice of subreddits (best to choose one with a good amount of posts). You can use this [link](https://redditcharts.com/) to help identify one that interests you.  We'd like to see this as a .NET 6/7 application, and you are free to use any 3rd party libraries you would like.
 Your app should consume the posts from your chosen subreddit in near real time and keep track of the following statistics between the time your application starts until it ends:
 * Posts with most up votes
 * Users with most posts
@@ -29,8 +29,8 @@ When you're finished, please put your project in a repository on either GitHub o
 While the coding exercise is intended to be an interesting and fun challenge, we are interested in seeing your best work - aspects that go beyond merely functional code, that demonstrate professionalism and pride in your work.  We look forward to your submission!
 
 ### Accessing the Reddit API
-* To get the API, register [here](https://urldefense.com/v3/__https:/www.reddit.com/wiki/api/__;!!IEG5Mis9EI4d!TU3PcOJ0KOuHqLeVy6hCHe2yFEGS2BfG81pb-R_qZAyZNVqKNm6ls90Yhf_RBu59dm_KWyj3hJQGiQT8ZFkqWTh2exeie4S8kWM$)
-* Additional documentation can be found [here](https://urldefense.com/v3/__https:/www.reddit.com/dev/api/__;!!IEG5Mis9EI4d!TU3PcOJ0KOuHqLeVy6hCHe2yFEGS2BfG81pb-R_qZAyZNVqKNm6ls90Yhf_RBu59dm_KWyj3hJQGiQT8ZFkqWTh2exeinZ76kiU$)
+* To get the API, register [here](https://www.reddit.com/wiki/api/)
+* Additional documentation can be found [here](https://www.reddit.com/dev/api/)
 
 ### Things to Keep In Mind
 * [SOLID design principles](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
