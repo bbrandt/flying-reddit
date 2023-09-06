@@ -8,9 +8,9 @@ WORKDIR /src
 # copy everything
 COPY . ./
 # restore as distinct layers
-RUN dotnet restore
+RUN dotnet restore SubredditIngestionService/SubredditIngestionService.csproj
 # build and publish a release
-RUN dotnet publish -c Release -o /app
+RUN dotnet publish SubredditIngestionService/SubredditIngestionService.csproj -c Release -o /app
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:${DOTNET_SDK_VERSION}
