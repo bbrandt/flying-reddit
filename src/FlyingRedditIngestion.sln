@@ -9,15 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpstashInfrastructure", "Up
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IngestionCore", "IngestionCore\IngestionCore.csproj", "{0018719F-94A3-4AD8-A6CE-C786F3F8457F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngestionCoreTests", "..\tests\IngestionCoreTests\IngestionCoreTests.csproj", "{72EA1CF1-1EBC-4885-A090-F61A1CE739D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IngestionCoreTests", "..\tests\IngestionCoreTests\IngestionCoreTests.csproj", "{72EA1CF1-1EBC-4885-A090-F61A1CE739D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8E774E0-8874-4521-B17A-7BACE634EBB7}"
 	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitattributes = ..\.gitattributes
 		..\.gitignore = ..\.gitignore
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditInfrastructure", "RedditInfrastructure\RedditInfrastructure.csproj", "{6487F6D1-83AC-4151-AAEB-9B86879DF541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditInfrastructure", "RedditInfrastructure\RedditInfrastructure.csproj", "{6487F6D1-83AC-4151-AAEB-9B86879DF541}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
