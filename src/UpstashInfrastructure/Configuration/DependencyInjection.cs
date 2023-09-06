@@ -10,8 +10,14 @@ namespace UpstashInfrastructure.Configuration;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddCaching(this IServiceCollection services)
+    public static IServiceCollection AddCaching(this IServiceCollection services, string redisConnectionString)
     {
+        services.AddStackExchangeRedisCache(options =>
+        {
+            options.Configuration = redisConnectionString;
+            options.InstanceName = "SubredditIngestion";
+        });
+
         services.AddFusionCache()
             .WithDefaultEntryOptions(new FusionCacheEntryOptions
             {
@@ -20,9 +26,8 @@ public static class DependencyInjection
         return services;
     }
 
-    public static IServiceCollection AddDatastore(this IServiceCollection services)
+    public static IServiceCollection AddDatastore(this IServiceCollection services, string redisConnectionString)
     {
-
         return services;
     }
 }
